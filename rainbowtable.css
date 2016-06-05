@@ -1,0 +1,30 @@
+﻿body{background-image: url('crayon2.jpg'); background-repeat: no-repeat; background-size:100% 100%;}
+header{text-shadow:5px 5px 5px #00FF00; width: 100%; height:80px; border-bottom: 5px orange double; text-align: center; font-size: 70px; padding-bottom: 15px; font-family: 'Arial Rounded MT', Helvetica, sans-serif; color:gold; /*background-color: teal; opacity: 0.5;*/}
+#mainDiv { background-color: grey; opacity: 0.9; border-width: 0 1px 0 1px; border-color: green; border-style: solid; width:980px;  margin:auto;	font-family: "Arial Rounded MT", Arial, Helvetica, sans-serif; position: relative;}
+#tableHolder ul{margin:0; padding:0;}
+#tableHolder li 
+{
+    display:inline-block;
+    height:50px;
+    width:50px;
+    margin:3px;
+    text-align:center;
+    border: 3px solid turquoise;
+    font-size: small;
+    border-radius: 40px;
+    line-height: 50px;
+}
+#mainDiv div:nth-child(1), #mainDiv div:nth-child(2), #mainDiv div:nth-child(3) {float: left; width: 33.33%; text-align: center; padding-bottom:50px;}
+#mainDiv div:nth-child(1) input, #mainDiv div:nth-child(2)  input { font-size: 50px; width: 150px;  border-radius: 20px; padding-left: 10px;}
+#mainDiv div:nth-child(3)  input { font-size: 60px; width: 100px; height: 100px; margin-top: 20px; border-radius: 50px;}
+#tableHolder {; text-align: center; height:700px; overflow: auto; clear:both;}
+
+
+
+/*http://www.w3schools.com/css/css_image_sprites.asp*/
+#mainDiv div:nth-child(1) p {display: block;  background-image: url(iconRow.jpg); background-size: 20px 20px; background-repeat: no-repeat; background-position: 120px;}
+#mainDiv div:nth-child(2) p {display: block;  background-image: url(iconCol.jpg); background-size: 20px 20px; background-repeat: no-repeat; background-position: 120px;}
+#color, #reset {font-size: 30px; width: 150px;  border-radius: 30px;}
+aside{position: absolute; right: -170px; top:20px;}
+
+/*turn off spinner on number input fields*/

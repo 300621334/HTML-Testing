@@ -1,0 +1,36 @@
+﻿<!DOCTYPE HTML>
+<html>
+<!-- Shafiq-Ur-Rehman #300621334 -->
+<head>
+<meta content="text/html; charset=utf-8" http-equiv="Content-Type">
+<title>Assignment-2-Table</title>
+<link href="rainbowtable.css" rel="stylesheet">
+</head>
+<body>
+<header>RainBow &nbsp; Table</header>
+<div id="mainDiv">
+    <div><p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Rows:</p><input id="rows"  type="text" min="1" /></div>
+    <div><p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Columns:</p> <input id="cols"  type="text" min="1" max="20" /></div>
+    <div><input onclick="generateTable()" id="btn" type="button" value="Go" /></div>
+
+    <div id="tableHolder">
+
+
+    </div>
+    
+<aside>
+    <input id="color" type="button" value="Color It" /><br><br><br>
+    <input onclick="resettable()" id="reset" type="button" value="Reset" />
+</aside>
+
+
+<footer style="text-align:center; font-size:xx-small;">
+	<hr />
+	<p>&copy; Shafiq-Ur-Rehman | 300621334 | Software Engineering Technology | Centennial 
+	College | Comp-125-Javascript (Client Side Web Development)</p>
+	<hr />
+</footer>
+</div>
+<script src="rainbowtable.js"> </script>
+</body>
+</html>
